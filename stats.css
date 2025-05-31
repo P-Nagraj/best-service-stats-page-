@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container{
+    min-height: 100vh;
+    font-family: "Open Sans";
+   
+}
+
+.top-section{
+    
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   padding:59px
+  
+    
+}
+.top-bg{
+    background-image:url("https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-sm-bg.png");
+    background-size: cover;
+    height:80vh;
+   
+    
+}
+.logo{
+    height:80px;
+    align-self: center;
+
+}
+
+.top-heading{
+    color:white;
+    font-size:42px;
+    font-family: "Open Sans";
+    font-weight: 500;
+   
+}
+.top-para{
+    color: white;
+    margin-top: -30px;
+}
+
+/*bottom section*/
+.bottom-section{
+   padding-top:20px;
+   padding-left: 50px;
+   padding-right:40px;
+   
+}
+.service-heading{
+    color:#12022f;
+    font-size: 36px;
+}
+.service-description{
+    font-size: 16px;
+    color: #594d6d;
+}
+.stats-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.stats-num {
+    color: #176fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.stats-text {
+    color: #594d6d;
+    font-size: 18px;
+
+}
+
+@media screen and (min-width:992px){
+    .bg-container{
+        display: flex;
+    }
+    .top-bg{
+    background-image:url("https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-lg-bg-v1.png");
+    background-size: cover;
+    width:50%;
+    height: auto;}
+    .bottom-section{
+        display: flex;
+        flex-direction: column;
+        max-width: 44%;
+    }
+    .top-heading{
+    color:white;
+    font-size:38px;
+    font-family: "Open Sans";
+    font-weight: 500;
+   
+}
+
+}
